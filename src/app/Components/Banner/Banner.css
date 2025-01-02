@@ -1,0 +1,23 @@
+.bannerSection{
+    @apply pt-[106px] pb-[129px] bg-[url("/banner_bg.png")] bg-no-repeat bg-cover 
+}
+
+.bannerHeadInfo li{
+    @apply w-fit px-5 py-2 bg-[rgba(127,57,177,0.1)] font-medium text-2xl text-[#7F39B1] border border-[rgba(127,57,177,0.07)] rounded-full
+}
+
+.bannerHeadInfo h1{
+    @apply mt-6 w-[710px] font-bold text-[64px]
+}
+
+.bannerHeadInfo h1 span{
+    @apply text-[#7F39B1]
+}
+
+.bannerHeadInfo p{
+    @apply mt-6 w-[460px] font-normal text-xl text-[#211C1D]
+}
+
+.bannerHeadInfo button{
+    @apply mt-6 px-9 py-[14px] font-bold text-xl text-[#fff] leading-8 rounded-lg bg-[#7F39B1]
+}

@@ -1,0 +1,19 @@
+.whyChooseSection{
+    @apply py-[110px]
+}
+
+.whyChooseHead img{
+    @apply m-auto
+}
+
+.whyChooseHead h1{
+    @apply mt-2 text-center font-bold text-5xl text-[#211C1D]
+}
+
+.whyChooseHead p{
+    @apply mt-4 w-[530px] m-auto font-normal text-lg text-[rgba(33,28,29,0.71)] text-center
+}
+
+.whyChooseCardsRow{
+    @apply mt-[56px] flex gap-6
+}

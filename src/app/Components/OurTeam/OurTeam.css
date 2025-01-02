@@ -1,0 +1,19 @@
+.ourTeamSection{
+    @apply pt-[110px] pb-[48px] bg-[url("/team_bg.png")] bg-center bg-cover bg-no-repeat
+}
+
+.meetOurTeamCol h1{
+    @apply font-bold text-5xl text-[#fff] text-center
+}
+
+.teamRow{
+    @apply mt-14 flex justify-between
+}
+
+.meetOurTeamCol button{
+    @apply mt-[65px] px-9 py-3 bg-[#fff] font-bold text-xl text-[#7F39B1] rounded-xl ml-[50%] translate-x-[-50%] leading-8 duration-300
+}
+
+.meetOurTeamCol button:hover{
+    @apply bg-[#c98ef3] 
+}

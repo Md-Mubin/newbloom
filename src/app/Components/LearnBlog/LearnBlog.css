@@ -1,0 +1,15 @@
+.learnBlogSection{
+    @apply py-[110px] bg-[#fdfdfd]
+}
+
+.learnBlogHead h1{
+    @apply font-bold text-5xl text-[#211C1D] text-center
+}
+
+.learnBlogHead p{
+    @apply w-[436px] m-auto mt-4 font-normal text-lg text-[rgba(33,28,29,0.71)]
+}
+
+.learnBlogCardRow{
+    @apply mt-[56px] flex justify-between
+}

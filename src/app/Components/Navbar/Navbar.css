@@ -1,0 +1,23 @@
+nav{
+    @apply py-[22px]
+}
+
+.navRow{
+    @apply flex items-center justify-between
+}
+
+.navItemsRow{
+    @apply flex justify-center gap-[46px]
+}
+
+.navItemsRow a{
+    @apply font-normal text-xl text-[#211C1D]
+}
+
+nav button{
+    @apply px-9 py-[10px] bg-[#7F39B1] font-semibold text-xl text-white rounded-lg duration-300
+}
+
+nav button:hover{
+    @apply bg-[#9b4cd3]
+}

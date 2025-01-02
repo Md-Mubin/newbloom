@@ -1,0 +1,91 @@
+footer{
+    @apply pt-[88px] pb-[50px] bg-[#211C1D]
+}
+
+.footerRow{
+    @apply flex justify-between
+}
+
+.footerHead p{
+    @apply mt-6 w-[280px] font-normal text-[16px] text-[#fff] leading-[24px]
+}
+
+.footerHead .socialLinks{
+    @apply mt-6 flex items-center gap-3
+}
+
+.socialLinks a{
+    @apply p-[14px] rounded-[4px] text-xl text-[#7F39B1] bg-[#fff] duration-300
+}
+
+.socialLinks a:hover{
+    @apply bg-[#7F39B1] text-[#fff]
+}
+
+.footerUsefulLink{
+    @apply flex flex-col gap-4
+}
+
+.footerUsefulLink h2{
+    @apply mb-2 font-semibold text-2xl text-[#fff] leading-8
+}
+
+.footerUsefulLink a{
+    @apply flex items-center gap-2 font-normal text-[16px] text-[#fff]
+}
+
+.footerAddress{
+    @apply flex flex-col gap-4
+}
+
+.footerAddress h2{
+    @apply mb-2 font-semibold text-2xl text-[#fff] leading-8
+}
+
+.footerAddress li{
+    @apply flex items-center gap-2 font-normal text-[#fff] text-[16px] leading-6
+}
+
+.foooterContact .contactForm{
+    @apply flex flex-col gap-4 w-[416px] mt-6
+}
+
+.foooterContact h2{
+    @apply font-semibold text-2xl text-[#fff] leading-8
+}
+
+.contactForm ul input{
+    @apply w-full pl-[15px] py-3 font-semibold text-lg text-[#211C1D] rounded-md outline-none
+}
+
+.contactForm ul{
+    @apply relative
+}
+
+.contactForm li{
+    @apply text-xs text-red-300 absolute top-[-16px] right-0
+}
+
+.contactForm ul textarea{
+    @apply w-full h-[120px] pl-[15px] pt-3 font-semibold text-lg text-[#211C1D] rounded-md
+}
+
+.sendMassageBtn{
+    @apply px-9 py-[14px] bg-[#7F39B1] font-bold text-xl text-[#fff] rounded-lg mt-6 ml-auto leading-8 duration-300
+}
+
+.sendMassageBtn:hover{
+    @apply bg-[#9848d1]
+}
+
+.footerLastPart{
+    @apply mt-[58px] border-t border-[#3a3636]
+}
+
+.footerLastRow{
+    @apply mt-[42px] flex justify-between
+}
+
+.footerLastRow li{
+    @apply font-normal text-[16px] text-[#747172]
+}
