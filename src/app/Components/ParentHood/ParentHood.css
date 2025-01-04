@@ -1,0 +1,23 @@
+.parentHooodSection{
+    @apply py-[110px]
+}
+
+.parentHoodRow{
+    @apply flex justify-between items-start
+}
+
+.parentHoodInfoCol{
+    @apply w-[628px] flex flex-col
+}
+
+.parentHoodInfoCol h6{
+    @apply font-medium text-2xl text-[#7F39B1]
+}
+
+.parentHoodInfoCol h2{
+    @apply w-[480px] mt-3 font-bold text-[#211C1D] text-5xl
+}
+
+.parentHoodInfoCol li{
+    @apply mt-4 font-normal text-xl text-[#211C1D]
+}

@@ -19,7 +19,7 @@ const Navbar = () => {
                             <Link href={"/registration"}>Registration</Link>
                             <Link href={"/blog"}>Blog</Link>
                         </ul>
-                        <button>Contact Us</button>
+                        <Link href={"/contact"} className='contactButton'>Contact Us</Link>
                     </ul>
                 </div>
             </nav>

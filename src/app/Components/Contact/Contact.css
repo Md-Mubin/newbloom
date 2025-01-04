@@ -1,0 +1,59 @@
+.contactSection{
+    @apply py-[110px]
+}
+
+.contactPartRow{
+    @apply flex justify-between
+}
+
+.contactInfoCol{
+    @apply w-[370px]
+}
+
+.contactInfoCol h2{
+    @apply font-bold text-5xl text-[#211C1D]
+}
+
+.contactInfoCol p{
+    @apply mt-6 font-normal text-[16px] text-[#211C1D]
+}
+
+.contactInfoCol li{
+    @apply flex items-center gap-2 mt-6
+}
+
+.contactFormCol{
+    @apply w-[770px]
+}
+
+.contactFormCol h2{
+    @apply font-bold text-5xl text-[#211C1D]
+}
+
+.contactFormCol form{
+    @apply mt-[62px] w-full
+}
+
+.nameForm, .emailForm, .phoneForm, .subjectForm{
+    @apply w-full relative
+} 
+
+.nameForm input, .emailForm input, .phoneForm input, .subjectForm input{
+    @apply w-full bg-[#F9F9F9] py-5 pl-6 text-[16px] text-[#7a7a7a] font-normal leading-6 outline-none
+}
+
+.massagePart{
+    @apply mt-6 relative
+}
+
+.massagePart textarea{
+    @apply pl-6 pt-6 w-full h-[215px] bg-[#F9F9F9] outline-none
+}
+
+.sendMsgButton{
+    @apply w-full py-5 mt-6 bg-[#7F39B1] font-semibold text-[16px] text-[#fff] leading-6
+}
+
+.error{
+    @apply font-normal text-red-400 text-[16px] absolute top-[-20px] right-0
+}

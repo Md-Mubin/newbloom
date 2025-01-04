@@ -1,0 +1,11 @@
+.ourServiceSection{
+    @apply py-[110px]
+}
+
+.ourServiceSection h1{
+    @apply font-bold text-5xl text-[#211C1D] text-center
+}
+
+.serviceRow{
+    @apply mt-[56px] flex flex-wrap gap-6
+}

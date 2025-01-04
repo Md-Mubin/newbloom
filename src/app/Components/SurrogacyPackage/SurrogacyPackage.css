@@ -1,0 +1,11 @@
+.surrogacyPackageSection{
+    @apply py-[110px]
+}
+
+.surrogacyInfo h1{
+    @apply font-bold text-5xl text-[#211C1D] text-center
+}
+
+.surrogacyInfo p{
+    @apply mt-4 m-auto text-center w-[520px] font-normal text-lg text-[rgba(33,28,29,0.71)]
+}

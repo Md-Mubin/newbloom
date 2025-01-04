@@ -1,8 +1,11 @@
+import CommonPagesBanne from '@/app/Commons/CommonPagesBanne'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>registration</div>
+    <>
+      <CommonPagesBanne pageName={"Registration"} pageNameBig={"Registration"} />
+    </>
   )
 }
 

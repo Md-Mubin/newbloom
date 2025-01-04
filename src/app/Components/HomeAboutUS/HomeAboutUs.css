@@ -27,5 +27,5 @@
 }
 
 .homeAboutUsSectionInfos button:hover{
-    @apply bg-[rgba(255,255,255,0.7)]
+    @apply bg-[#ffffffb3]
 }
