@@ -1,5 +1,5 @@
 .ourTeamSection{
-    @apply pt-[110px] pb-[48px] bg-[url("/team_bg.png")] bg-center bg-cover bg-no-repeat
+    @apply py-[55px] lg:pt-[110px] lg:pb-[48px] bg-[url("/team_bg.png")] bg-center bg-cover bg-no-repeat
 }
 
 .meetOurTeamCol h1{
@@ -7,11 +7,11 @@
 }
 
 .teamRow{
-    @apply mt-14 flex justify-between
+    @apply mt-14 flex flex-col lg:flex-row gap-10 2xl:gap-0 justify-between
 }
 
 .meetOurTeamCol button{
-    @apply mt-[65px] px-9 py-3 bg-[#fff] font-bold text-xl text-[#7F39B1] rounded-xl ml-[50%] translate-x-[-50%] leading-8 duration-300
+    @apply mt-[65px] px-6 lg:px-9 py-3 bg-[#fff] font-bold text-xl text-[#7F39B1] rounded-xl ml-[50%] translate-x-[-50%] leading-8 duration-300
 }
 
 .meetOurTeamCol button:hover{

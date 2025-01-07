@@ -3,7 +3,7 @@ footer{
 }
 
 .footerRow{
-    @apply flex justify-between
+    @apply flex flex-wrap lg:flex-row gap-10 lg:gap-0 justify-between
 }
 
 .footerHead p{
@@ -47,11 +47,11 @@ footer{
 }
 
 .foooterContact .contactForm{
-    @apply flex flex-col gap-4 w-[416px] mt-6
+    @apply flex flex-col gap-4 w-[340px] md:w-[416px] mt-6
 }
 
 .foooterContact h2{
-    @apply font-semibold text-2xl text-[#fff] leading-8
+    @apply font-semibold text-2xl text-[#fff] leading-8 mt-0 lg:mt-10 xl:mt-0
 }
 
 .contactForm ul input{
@@ -83,7 +83,7 @@ footer{
 }
 
 .footerLastRow{
-    @apply mt-[42px] flex justify-between
+    @apply mt-[42px] flex flex-wrap sm:flex-nowrap gap-10 sm:gap-0 text-center  justify-between
 }
 
 .footerLastRow li{

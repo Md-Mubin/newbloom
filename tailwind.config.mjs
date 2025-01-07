@@ -14,7 +14,8 @@ export default {
       container:{
         center : true,
         padding : {
-          DEAFULT : "10px",
+          DEFAULT : "20px",
+          md : "0px",
           "2xl" : "108px"
         }
       }

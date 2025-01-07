@@ -1,5 +1,5 @@
 .whyChooseSection{
-    @apply py-[110px]
+    @apply py-[55px] lg:py-[110px]
 }
 
 .whyChooseHead img{
@@ -7,13 +7,13 @@
 }
 
 .whyChooseHead h1{
-    @apply mt-2 text-center font-bold text-5xl text-[#211C1D]
+    @apply mt-2 text-center font-bold text-4xl md:text-5xl text-[#211C1D]
 }
 
 .whyChooseHead p{
-    @apply mt-4 w-[530px] m-auto font-normal text-lg text-[rgba(33,28,29,0.71)] text-center
+    @apply mt-4 lg:w-[530px] m-auto font-normal text-lg text-[rgba(33,28,29,0.71)] text-center
 }
 
 .whyChooseCardsRow{
-    @apply mt-[56px] flex gap-6
+    @apply mt-[56px] flex flex-wrap justify-center lg:flex-nowrap gap-6
 }

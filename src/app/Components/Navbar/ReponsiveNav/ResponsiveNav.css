@@ -1,0 +1,27 @@
+.resNavRow{
+    @apply flex justify-between items-center relative lg:hidden
+}
+
+.resNav{
+    @apply flex items-center justify-between
+}
+
+.resNav img{
+    @apply w-[100px]
+}
+
+.resNav button{
+    @apply text-4xl text-[#00000080]
+}
+
+.resNavItemsRow{
+    @apply px-6 py-4 flex flex-col w-full bg-white gap-4 absolute right-0 top-20 
+}
+
+.resNavItemsRow a{
+    @apply w-full text-end pr-4 rounded-2xl
+}
+
+.resNavItemsRow a:hover{
+    @apply bg-[#0000000d]
+}

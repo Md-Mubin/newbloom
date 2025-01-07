@@ -1,13 +1,13 @@
 nav{
-    @apply py-[22px]
+    @apply py-3 lg:py-[22px]
 }
 
 .navRow{
-    @apply flex items-center justify-between
+    @apply hidden lg:flex items-center justify-between 
 }
 
 .navItemsRow{
-    @apply flex justify-center gap-[46px]
+    @apply flex justify-center gap-8 xl:gap-[46px]
 }
 
 .navItemsRow a{

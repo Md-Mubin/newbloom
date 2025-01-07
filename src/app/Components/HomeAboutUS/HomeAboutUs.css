@@ -1,13 +1,13 @@
 .homeAboutUsSection{
-    @apply py-[135px] bg-[url("/homeAboutSection_bg.png")] bg-cover bg-center bg-no-repeat
+    @apply py-[53px] lg:py-[135px] bg-[url("/homeAboutSection_bg.png")] bg-cover bg-center bg-no-repeat
 }
 
 .homeAboutUsRow{
-    @apply flex justify-between
+    @apply flex flex-col lg:flex-row gap-10 xl:gap-0 justify-between
 }
 
 .homeAboutUsSectionInfos{
-    @apply w-[628px]
+    @apply lg:w-[628px]
 }
 
 .homeAboutUsSectionInfos h6{
@@ -15,11 +15,11 @@
 }
 
 .homeAboutUsSectionInfos h1{
-    @apply mt-3 w-[440px] font-bold text-5xl text-[#fff]
+    @apply mt-3 lg:w-[440px] font-bold text-5xl text-[#fff]
 }
 
 .homeAboutUsSectionInfos p{
-    @apply mt-4 font-normal text-xl text-[#fff] flex flex-col gap-4
+    @apply mt-4 font-normal text-lg lg:text-xl text-[#fff] flex flex-col gap-4
 }
 
 .homeAboutUsSectionInfos button{

@@ -1,9 +1,9 @@
 .startJourneySection{
-    @apply py-[127px] bg-[url("/start_journey_bg.png")] bg-center bg-cover bg-no-repeat
+    @apply py-[64px] lg:py-[127px] bg-[url("/start_journey_bg.png")] bg-center bg-cover bg-no-repeat
 }
 
 .startJourneyHead h1{
-    @apply font-bold text-[#fff] text-5xl text-center
+    @apply font-bold text-[#fff] text-3xl sm:text-4xl lg:text-5xl text-center
 }
 
 .startJourneyHead p{
@@ -11,9 +11,9 @@
 }
 
 .startJourneyHead .buttons{
-    @apply mt-14 flex justify-center gap-8
+    @apply mt-14 flex flex-wrap sm:flex-nowrap justify-center gap-8
 }
 
 .startJourneyHead .buttons button{
-    @apply px-9 py-[14px] rounded-xl font-bold text-[#fff] text-xl
+    @apply px-6 lg:px-9 py-[14px] rounded-xl font-bold text-[#fff] text-xl
 }

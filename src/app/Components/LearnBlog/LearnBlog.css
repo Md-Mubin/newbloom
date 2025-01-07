@@ -1,5 +1,5 @@
 .learnBlogSection{
-    @apply py-[110px] bg-[#fdfdfd]
+    @apply py-[55px] lg:py-[110px] bg-[#fdfdfd]
 }
 
 .learnBlogHead h1{
@@ -7,9 +7,9 @@
 }
 
 .learnBlogHead p{
-    @apply w-[436px] m-auto mt-4 font-normal text-lg text-[rgba(33,28,29,0.71)]
+    @apply w-full lg:w-[436px] text-center m-auto mt-4 font-normal text-lg text-[rgba(33,28,29,0.71)]
 }
 
 .learnBlogCardRow{
-    @apply mt-[56px] flex justify-between
+    @apply mt-[56px] flex flex-wrap lg:flex-nowrap gap-4 2xl:gap-0 justify-between
 }

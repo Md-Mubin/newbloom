@@ -2,6 +2,7 @@
 import React from 'react'
 import './Navbar.css'
 import Link from 'next/link'
+import ResponisveNav from './ReponsiveNav/ResponisveNav'
 
 const Navbar = () => {
 
@@ -22,6 +23,7 @@ const Navbar = () => {
                         <Link href={"/contact"} className='contactButton'>Contact Us</Link>
                     </ul>
                 </div>
+                    <ResponisveNav />
             </nav>
         </>
     )
