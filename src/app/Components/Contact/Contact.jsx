@@ -45,8 +45,8 @@ const Contact = () => {
 
                         <ul className='contactFormCol'>
                             <h2>Get in Touch</h2>
-                            <form onClick={handleSubmit}>
-                                <ul className='flex gap-7'>
+                            <form onSubmit={handleSubmit}>
+                                <ul className='flex flex-wrap md:flex-nowrap gap-7'>
 
                                     {/* name part */}
                                     <li className='nameForm'>
@@ -77,7 +77,7 @@ const Contact = () => {
                                     </li>
                                 </ul>
 
-                                <ul className='flex gap-7 mt-6'>
+                                <ul className='flex flex-wrap md:flex-nowrap gap-7 mt-6'>
                                     {/* phone number part */}
                                     <li className='phoneForm'>
                                         <input

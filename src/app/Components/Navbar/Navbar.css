@@ -1,5 +1,5 @@
 nav{
-    @apply py-3 lg:py-[22px]
+    @apply py-3 lg:py-[22px] sticky top-0 bg-white z-50 
 }
 
 .navRow{

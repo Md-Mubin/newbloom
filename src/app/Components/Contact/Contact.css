@@ -1,13 +1,13 @@
 .contactSection{
-    @apply py-[110px]
+    @apply py-[55px] lg:py-[110px]
 }
 
 .contactPartRow{
-    @apply flex justify-between
+    @apply flex flex-col lg:flex-row gap-10 xl:gap-0 justify-between
 }
 
 .contactInfoCol{
-    @apply w-[370px]
+    @apply w-full lg:w-[370px]
 }
 
 .contactInfoCol h2{
@@ -23,7 +23,7 @@
 }
 
 .contactFormCol{
-    @apply w-[770px]
+    @apply w-full lg:w-[770px]
 }
 
 .contactFormCol h2{
