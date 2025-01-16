@@ -7,7 +7,7 @@
 }
 
 .bannerHeadInfo h1{
-    @apply mt-6 md:w-[400px] lg:w-[710px] font-bold text-4xl lg:text-[64px] leading-[1.2]
+    @apply mt-6 md:w-[400px] lg:w-[600px] xl:w-[710px] font-bold text-4xl lg:text-5xl xl:text-[64px] leading-[1.2]
 }
 
 .bannerHeadInfo h1 span{
