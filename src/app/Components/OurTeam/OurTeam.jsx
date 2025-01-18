@@ -9,6 +9,8 @@ const OurTeam = () => {
                 <div className="container">
                     <ul className='meetOurTeamCol'>
                         <h1>Meet Our Team</h1>
+
+                        {/* ======= teams ======== */}
                         <li className='teamRow'>
                             <CommonTeamCard
                                 commonTeamImg={"/founder_img.png"}
