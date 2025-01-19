@@ -17,7 +17,6 @@ const Navbar = () => {
                             <Link href={"/aboutUs"}>About us</Link>
                             <Link href={"/services"}>Services</Link>
                             <Link href={"/faqs"}>FAQs</Link>
-                            <Link href={"/registration"}>Registration</Link>
                             <Link href={"/blog"}>Blog</Link>
                         </ul>
                         <Link href={"/contact"} className='contactButton'>Contact Us</Link>
