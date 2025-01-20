@@ -8,6 +8,7 @@ const Navbar = () => {
 
     return (
         <>
+            {/* ======================= Navbar Part Start ======================= */}
             <nav>
                 <div className="container">
                     <ul className='navRow'>
@@ -22,8 +23,9 @@ const Navbar = () => {
                         <Link href={"/contact"} className='contactButton'>Contact Us</Link>
                     </ul>
                 </div>
-                    <ResponisveNav />
+                <ResponisveNav />
             </nav>
+            {/* ======================= Navbar Part End ======================= */}
         </>
     )
 }
