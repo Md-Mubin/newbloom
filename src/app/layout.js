@@ -10,6 +10,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      {/* < !--
+       ==========================================================
+       *                  New Bloom (Next.js)
+       * --------------------------------------------------------
+       * Author     : Md.Irfan Rahman Mubin
+       * Email      : fontdevmubin @gmail.com
+       * Phone      : 01937344541
+       * Date       : December 25, 2024
+       * Linked -in : https://www.linkedin.com/in/frontdev-mubin
+       * Git - hub  : https://github.com/Md-Mubin
+       ==========================================================
+       --> */}
+
       <body>
         <Navbar />
         {children}
