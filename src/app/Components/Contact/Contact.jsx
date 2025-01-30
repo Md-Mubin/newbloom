@@ -31,6 +31,7 @@ const Contact = () => {
 
     return (
         <>
+            {/* ======================= Contact Part Start ======================= */}
             <section className='contactSection'>
                 <div className="container">
                     <ul className='contactPartRow'>
@@ -125,6 +126,7 @@ const Contact = () => {
                     </ul>
                 </div>
             </section>
+            {/* ======================= Contact Part End ======================= */}
         </>
     )
 }

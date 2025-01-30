@@ -4,6 +4,7 @@ import './HomeAboutUs.css'
 const HomeAboutUs = () => {
     return (
         <>
+            {/* ======================= Home About US Part Start ======================= */}
             <section className='homeAboutUsSection'>
                 <div className="container">
                     <ul className="homeAboutUsRow">
@@ -23,6 +24,7 @@ const HomeAboutUs = () => {
                     </ul>
                 </div>
             </section>
+            {/* ======================= Home About US Part End ======================= */}
         </>
     )
 }

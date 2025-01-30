@@ -4,6 +4,7 @@ import './Banner.css'
 const Banner = () => {
     return (
         <>
+            {/* ======================= Banner Part Start ======================= */}
             <section className='bannerSection'>
                 <div className="container">
                     <ul className='bannerHeadInfo'>
@@ -14,6 +15,7 @@ const Banner = () => {
                     </ul>
                 </div>
             </section>
+            {/* ======================= Banner Part End ======================= */}
         </>
     )
 }
