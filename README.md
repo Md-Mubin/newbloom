@@ -1,5 +1,5 @@
 # Still Working on this Project
-# not complete
+### not completed
 
 ## Getting Started
 
