@@ -4,6 +4,7 @@ import './StartJourney.css'
 const StartJourney = () => {
     return (
         <>
+            {/* ======================= Start Journey Part Start ======================= */}
             <section className='startJourneySection'>
                 <div className="container">
                     <ul className='startJourneyHead'>
@@ -16,8 +17,9 @@ const StartJourney = () => {
                     </ul>
                 </div>
             </section>
+            {/* ======================= Start Journey Part End ======================= */}
         </>
-  )
+    )
 }
 
 export default StartJourney

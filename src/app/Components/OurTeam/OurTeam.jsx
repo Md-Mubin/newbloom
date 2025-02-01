@@ -5,6 +5,7 @@ import CommonTeamCard from '@/app/Commons/CommonTeamCard'
 const OurTeam = () => {
     return (
         <>
+            {/* ======================= Our Team Part Start ======================= */}
             <section className='ourTeamSection'>
                 <div className="container">
                     <ul className='meetOurTeamCol'>
@@ -30,6 +31,7 @@ const OurTeam = () => {
                     </ul>
                 </div>
             </section>
+            {/* ======================= Our Team Part End ======================= */}
         </>
     )
 }

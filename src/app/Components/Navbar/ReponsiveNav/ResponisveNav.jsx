@@ -9,6 +9,7 @@ const ResponisveNav = () => {
 
     return (
         <>
+            {/* ======================= Responsive Navbar Part Start ======================= */}
             <nav className='resNavRow'>
                 <div className="container">
                     <ul className='resNav'>
@@ -25,6 +26,7 @@ const ResponisveNav = () => {
                     <Link href={"/blog"}>Blog</Link>
                 </ul>
             </nav>
+            {/* ======================= Responsive Navbar Part End ======================= */}
         </>
     )
 }

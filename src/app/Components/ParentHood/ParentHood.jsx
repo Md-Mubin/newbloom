@@ -4,6 +4,7 @@ import './ParentHood.css'
 const ParentHood = () => {
     return (
         <>
+            {/* ======================= Parent Hood Part Start ======================= */}
             <section className='parentHooodSection'>
                 <div className="container">
                     <ul className='parentHoodRow'>
@@ -20,6 +21,7 @@ const ParentHood = () => {
                     </ul>
                 </div>
             </section>
+            {/* ======================= Parent Hood Part End ======================= */}
         </>
     )
 }
