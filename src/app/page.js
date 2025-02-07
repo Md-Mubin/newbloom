@@ -1,4 +1,3 @@
-import AskedQuestions from "./Components/AskedQuestions/AskedQuestions";
 import Banner from "./Components/Banner/Banner";
 import HomeAboutUs from "./Components/HomeAboutUS/HomeAboutUs";
 import LearnBlog from "./Components/LearnBlog/LearnBlog";
