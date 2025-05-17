@@ -3,7 +3,7 @@ import React from 'react'
 const CommonLearnBlogCard = ({ commonLearnBlogHead, commonLearnBlogImg, commonLearnBlogInfo }) => {
     return (
         <>
-            <ul className=' w-full lg:w-[425px] rounded-xl bg-[#fff] shadow-xl'>
+            <ul className=' w-full lg:w-[425px] rounded-xl bg-white shadow-xl'>
                 <img src={commonLearnBlogImg} alt="image" className='w-full'/>
                 <ul className='p-5'>
                     <li className='font-semibold text-xl text-[#212D3A]'>{commonLearnBlogHead}</li>

@@ -64,7 +64,7 @@ const Footer = () => {
                         {/* ================ footer address part ================ */}
                         <ul className='footerAddress'>
                             <h2>Our Address</h2>
-                            <li className='!items-start'>
+                            <li className='items-start!'>
                                 <FiMapPin className='text-2xl text-[#7F39B1] mt-1' />
                                 <span className='w-[220px]'>
                                     Old Westbury 256, New York 11201, United States
