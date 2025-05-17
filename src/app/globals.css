@@ -1,4 +1,17 @@
 @import 'tailwindcss';
+@import './Components/Navbar/Navbar.css';
+@import './Components/Navbar/ReponsiveNav/ResponsiveNav.css';
+@import './Components/Banner/Banner.css';
+@import './Components/Contact/Contact.css';
+@import './Components/Footer/Footer.css';
+@import './Components/HomeAboutUS/HomeAboutUs.css';
+@import './Components/LearnBlog/LearnBlog.css';
+@import './Components/OurServices/OurServices.css';
+@import './Components/OurTeam/OurTeam.css';
+@import './Components/ParentHood/ParentHood.css';
+@import './Components/StartJourney/StartJourney.css';
+@import './Components/SurrogacyPackage/SurrogacyPackage.css';
+@import './Components/WhyChoose/WhyChoose.css';
 
 @utility container {
   margin: 0 auto;
