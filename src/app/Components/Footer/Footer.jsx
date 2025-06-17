@@ -143,6 +143,7 @@ const Footer = () => {
                     </ul>
                 </div>
 
+                {/* footer last part */}
                 <ul className='footerLastPart'>
                     <div className="container">
                         <ul className='footerLastRow'>
